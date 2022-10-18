@@ -2,7 +2,7 @@ num = 10
 if num > 1:
 	
 	for i in range(3, int(num/2)+1):
-		if (num % i) == 0:
+		if (num % i+1) == 0:
 			print(num, "is not a prime number")
 			break
 		else:
